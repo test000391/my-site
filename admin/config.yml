@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: test000391/my-site  # استبدل "yourusername/my-site" باسم المستودع الخاص بك
+  repo: test000391.github.io/my-site  # استبدلها باسم المستودع الخاص بك
 
 media_folder: "assets"
 public_folder: "/assets"
@@ -11,7 +11,7 @@ collections:
     files:
       - name: "home"
         label: "الصفحة الرئيسية"
-        file: "index.md"
+        file: "index.md"  # تأكد من أن هذا هو اسم الملف الذي يحتوي على المحتوى الذي تريد تعديله
         fields:
           - { label: "العنوان", name: "title", widget: "string" }
           - { label: "النص", name: "body", widget: "text" }
