@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: yourusername/my-site  # استبدل "yourusername/my-site" باسم المستودع الخاص بك
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "pages"
+    label: "الصفحات"
+    files:
+      - name: "home"
+        label: "الصفحة الرئيسية"
+        file: "index.md"
+        fields:
+          - { label: "العنوان", name: "title", widget: "string" }
+          - { label: "النص", name: "body", widget: "text" }
