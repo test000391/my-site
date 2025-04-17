@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: yourusername/my-site  # استبدل "yourusername/my-site" باسم المستودع الخاص بك
+  repo: test000391/my-site  # استبدل "yourusername/my-site" باسم المستودع الخاص بك
 
 media_folder: "assets"
 public_folder: "/assets"
